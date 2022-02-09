@@ -18,38 +18,32 @@ body {
   margin: auto;
   padding-top: 12px;
 }
-.menu-bar {
-  background-color: gray;
-  height: 27px;
-  width: 100%;
-  margin: 0;
+.menu-bar{
+  background-color: rgb(48, 46, 46);
+  
 }
-.menu {
-  background-color: rgb(59, 52, 52);
-  /* background-color: rgb(68, 63, 63);   */
+.menu{
+  margin: 0% 0 3% 0;
   overflow: hidden;
-  height: 100%;
-  padding-left: 0;
-  margin: 0;
+  padding: auto;
+  padding-left: 0%;
+  margin-bottom: 0;
 }
-.menu .menu-item {
-  list-style: none;
-  height: 100%;
+a.menu-item{
   text-decoration: none;
+  color:white;
 }
-.menu-item {
-  width: 10%;
-  text-align: center;
-  border-right: 1px white solid;
-  padding-top: 3px;
-  border-right: 1px white solid;
+li{
+  font-size: 110%;
+  width: 8%;
   float: left;
-  max-width: 180px;
-  min-width: 86px;
-  color: white;
-  font-size: 15px;
+  list-style: none;
+  text-decoration: none;
+  padding-left: 4%;
+  
+  border-right: 1px white solid;
 }
-.menu-item:hover {
+li:hover {
   background-color: green;
 }
 .main-content {
